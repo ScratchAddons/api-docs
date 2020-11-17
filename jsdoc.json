@@ -1,7 +1,11 @@
 {
   "docdash": {
     "openGraph": {
-            "image": "https://scratchaddons.com/assets/images/icon.svg"
+            "image": "https://scratchaddons.com/assets/images/icon.svg",
+            "title": "Scratch Addons API Docs",
+            "type": "website",
+            "url": "https://api-docs.scratchaddons.com/"
+            
     },
     "search": [true],
     "menu": {                       
