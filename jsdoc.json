@@ -12,8 +12,8 @@
                 "href":"https://github.com/ScratchAddons/ScratchAddons",
                 "target":"_blank",
                 "class":"menu-item",
-                "id":"forum_link"
+                "id":"github_link"
             }
-        },
         }
-        }
+    }
+}
