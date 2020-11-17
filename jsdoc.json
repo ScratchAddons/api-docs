@@ -1,0 +1,19 @@
+{
+  "docdash": {
+    "search": [true],
+    "menu": {                       
+            "Scratch Addons Home": {
+                "href":"https://scratchaddons.com",
+                "target":"_blank",
+                "class":"menu-item",
+                "id":"website_link"
+            },
+            "GitHub Repo": {
+                "href":"https://github.com/ScratchAddons/ScratchAddons",
+                "target":"_blank",
+                "class":"menu-item",
+                "id":"forum_link"
+            }
+        },
+        }
+        }
