@@ -7,6 +7,7 @@ on:
     paths:
       - .github/workflows/update-docs.yml
       - jsdoc.json
+      - home.md 
   workflow_dispatch:
 
 jobs:
@@ -25,7 +26,7 @@ jobs:
         with:
           source_dir: ./sa/addon-api
           output_dir: ./docs
-          front_page: ./README.md
+          front_page: ./home.md
           template: docdash
           recurse: true
           config_file: jsdoc.json
