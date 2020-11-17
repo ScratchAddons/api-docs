@@ -24,7 +24,7 @@ jobs:
         with:
           source_dir: ./sa/addon-api
           output_dir: ./docs
-          front_page: ./sa/README.md
+          front_page: ./README.md
           template: docdash
           recurse: true
       - name: Deploy
