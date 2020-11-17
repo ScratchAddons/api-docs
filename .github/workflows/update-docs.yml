@@ -1,11 +1,11 @@
-name: Generate docs
+name: Update docs
 
 on: 
-  schedule:
-    - cron: "0 1 * * *"
   push:
     branches:
       - master
+    paths:
+      - .github/workflows/update-docs.yml
   workflow_dispatch:
 
 jobs:
