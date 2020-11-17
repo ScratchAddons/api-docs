@@ -21,6 +21,11 @@ jobs:
         with:
           repository: ScratchAddons/ScratchAddons
           path: sa
+      - name: Checkout Wiki
+        uses: actions/checkout@v2
+        with:
+          repository: ScratchAddons/ScratchAddons.wiki
+          path: tutorials  
       - name: Build
         uses: andstor/jsdoc-action@v1
         with:
