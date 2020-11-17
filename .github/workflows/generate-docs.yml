@@ -1,0 +1,32 @@
+name: Generate docs
+
+on: 
+  push:
+    branches:
+      - master
+  workflow_dispatch:
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout ScratchAddons/api-docs
+        uses: actions/checkout@v2
+      - name: Checkout ScratchAddons/ScratchAddons
+        uses: actions/checkout@v2
+          with:
+            repository: ScratchAddons/ScratchAddons
+            path: sa
+      - name: Build
+        uses: andstor/jsdoc-action@v1
+        with:
+          source_dir: ./sa/addon-api
+          output_dir: ./docs
+          front_page: ./sa/README.md
+          template: docdash
+          recurse: true
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./docs
