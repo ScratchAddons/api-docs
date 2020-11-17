@@ -1,5 +1,8 @@
 {
   "docdash": {
+    "openGraph": {
+            "image": "https://scratchaddons.com/assets/images/icon.svg"
+    },
     "search": [true],
     "menu": {                       
             "Scratch Addons Home": {
