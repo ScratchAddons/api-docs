@@ -1,4 +1,7 @@
 {
+  "opts": {
+    "tutorials": "/"
+  },
   "docdash": {
     "openGraph": {
             "image": "https://scratchaddons.com/assets/images/icon.svg",
