@@ -14,9 +14,9 @@ jobs:
         uses: actions/checkout@v2
       - name: Checkout ScratchAddons/ScratchAddons
         uses: actions/checkout@v2
-          with:
-            repository: ScratchAddons/ScratchAddons
-            path: sa
+        with:
+          repository: ScratchAddons/ScratchAddons
+          path: sa
       - name: Build
         uses: andstor/jsdoc-action@v1
         with:
