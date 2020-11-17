@@ -27,6 +27,7 @@ jobs:
           front_page: ./README.md
           template: docdash
           recurse: true
+          config_file: jsdoc.json
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
