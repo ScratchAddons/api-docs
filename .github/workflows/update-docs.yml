@@ -21,8 +21,7 @@ jobs:
       - name: Checkout ScratchAddons/ScratchAddons
         uses: actions/checkout@v2
         with:
-          repository: ScratchAddons/ScratchAddons
-          branch: jsdoc-ify
+          repository: ScratchAddons/ScratchAddons:master
           path: sa
       - name: Checkout Wiki
         uses: actions/checkout@v2
