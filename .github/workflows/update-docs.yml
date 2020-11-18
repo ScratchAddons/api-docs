@@ -44,3 +44,4 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./docs
           cname: api-docs.scratchaddons.com
+          force_orphan: true
