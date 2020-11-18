@@ -35,7 +35,7 @@ jobs:
           source_dir: ./sa/addon-api
           output_dir: ./docs
           front_page: ./home.md
-          template: ScratchAddons/sa-jsdoc-theme
+          template: ScratchAddons/better-docs
           recurse: true
           config_file: jsdoc.json
       - name: Deploy
