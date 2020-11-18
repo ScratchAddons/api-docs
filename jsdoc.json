@@ -2,12 +2,12 @@
   "opts": {
     "tutorials": "tutorials"
   },
-  "plugins": [
-        "plugins/markdown",
-        "category",
-        "component",
-        "typescript"
-    ],
+"tags": {
+    "allowUnknownTags": ["optional"] //or true
+},
+"plugins": [
+    "node_modules/better-docs/typescript"
+],
   "docdash": {
     "logo": {
       "src": "https://scratchaddons.com/assets/images/icon.svg"
