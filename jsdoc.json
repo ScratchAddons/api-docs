@@ -1,10 +1,10 @@
 {
   "opts": {
     "tutorials": "tutorials"
-  },
-"tags": {
-    "allowUnknownTags": ["true"]
+    "tags": {
+      "allowUnknownTags": ["true"]
 },
+  },
   "docdash": {
     "logo": {
       "src": "https://scratchaddons.com/assets/images/icon.svg"
