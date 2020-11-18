@@ -4,12 +4,12 @@
   },
   "templates": {
     "search": true
-  }
+  },
   "better-docs": {
-            "name": "AdminBro Documentation",
-            "logo": "images/logo.png",
-            "title": "", // HTML title
-            "css": "style.css",
+            "name": "Scratch Addons API Documentation",
+            "logo": "https://scratchaddons.com/assets/images/icon.svg",
+            "title": "Scratch Addons API Documentation"
+            "css": "overrides.css",
     "navLinks": {                       
             {
                 "href":"https://scratchaddons.com",
