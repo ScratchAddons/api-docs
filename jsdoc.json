@@ -3,6 +3,8 @@
     "tutorials": "tutorials"
   },
   "docdash": {
+    "logo": {
+      "src": "https://scratchaddons.com/assets/images/icon.svg"
     "openGraph": {
             "image": "https://scratchaddons.com/assets/images/icon.svg",
             "title": "Scratch Addons API Docs",
