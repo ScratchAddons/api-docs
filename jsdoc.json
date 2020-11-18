@@ -1,6 +1,6 @@
 {
   "opts": {
-    "tutorials": "tutorials"
+    "tutorials": "tutorials",
     "tags": {
       "allowUnknownTags": ["true"]
 },
