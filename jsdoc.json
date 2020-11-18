@@ -5,9 +5,6 @@
 "tags": {
     "allowUnknownTags": ["true"]
 },
-"plugins": [
-    "node_modules/better-docs/typescript"
-],
   "docdash": {
     "logo": {
       "src": "https://scratchaddons.com/assets/images/icon.svg"
