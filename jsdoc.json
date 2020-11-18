@@ -2,10 +2,17 @@
   "opts": {
     "tutorials": "tutorials"
   },
+  "plugins": [
+        "plugins/markdown",
+        "category",
+        "component",
+        "typescript"
+    ],
   "docdash": {
     "logo": {
       "src": "https://scratchaddons.com/assets/images/icon.svg"
     },
+    
     "openGraph": {
             "image": "https://scratchaddons.com/assets/images/icon.svg",
             "title": "Scratch Addons API Docs",
