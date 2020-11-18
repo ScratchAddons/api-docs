@@ -1,9 +1,6 @@
 {
   "opts": {
-    "tutorials": "tutorials",
-    "tags": {
-      "allowUnknownTags": ["true"]
-}
+    "tutorials": "tutorials"
   },
   "docdash": {
     "logo": {
