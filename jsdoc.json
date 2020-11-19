@@ -4,8 +4,7 @@
     "tutorials": "tutorials"
   },
   "templates": {
-    "search": true
-    },
+    "search": true,
     "better-docs": {
         "name": "Scratch Addons API Documentation",
         "logo": "https://scratchaddons.com/assets/images/icon.svg",
@@ -23,5 +22,6 @@
             }
         ]
     }
+}
 }
 
