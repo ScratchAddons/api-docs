@@ -7,7 +7,7 @@
     "search": true,
     "better-docs": {
         "name": "Scratch Addons API Documentation",
-        "logo": "https://scratchaddons.com/assets/images/icon.svg",
+        "logo": "",
         "title": "Scratch Addons API Documentation", 
         "css": "override.css",
     "hideGenerator": false,
