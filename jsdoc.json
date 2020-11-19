@@ -10,7 +10,7 @@
     "logo": "https://scratchaddons.com/assets/images/icon.svg",
     "title": "Scratch Addons API Documentation",
     "css": "overrides.css",
-    "navLinks": {                       
+    "navLinks": [                    
             {
                 "href":"https://scratchaddons.com",
                 "label": "Website"
@@ -20,6 +20,6 @@
                 "href":"https://github.com/ScratchAddons/ScratchAddons",
                 "label": "GitHub Repo"
             }
-        }
+        ]
     }
 }
