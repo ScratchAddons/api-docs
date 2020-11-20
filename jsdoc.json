@@ -3,9 +3,6 @@
   "markdown": {
     "idInHeadings": true
   },
-  "opts": {
-    "tutorials": "tutorials"
-  },
   "templates": {
     "search": true,
     "better-docs": {
