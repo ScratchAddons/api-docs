@@ -1,5 +1,8 @@
 {
   "plugins": ["plugins/markdown"],
+  "markdown": {
+    "idInHeadings": true
+  },
   "opts": {
     "tutorials": "tutorials"
   },
