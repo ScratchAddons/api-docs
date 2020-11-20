@@ -9,9 +9,9 @@
   "templates": {
     "search": true,
     "better-docs": {
-        "name": "Scratch Addons API Documentation",
+        "name": "Scratch Addons API Docs",
         "logo": "",
-        "title": "Scratch Addons API Documentation", 
+        "title": "Scratch Addons API Docs", 
         "css": "override.css",
     "hideGenerator": false,
         "navLinks": [
@@ -20,7 +20,7 @@
                 "href": "https://scratchaddons.com/"
             },
             {
-                "label": "GitHub Repo",
+                "label": "Repository",
                 "href": "https://github.com/ScratchAddons/ScratchAddons"
             }
         ]

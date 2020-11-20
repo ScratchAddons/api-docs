@@ -1,8 +1,6 @@
 name: Update docs
 
 on: 
-  schedule:
-    - cron: "0 1 * * *"
   push:
     branches:
       - master
@@ -24,11 +22,6 @@ jobs:
           repository: ScratchAddons/ScratchAddons
           path: sa
           ref: jsdoc-ify
-      - name: Checkout Wiki
-        uses: actions/checkout@v2
-        with:
-          repository: ScratchAddons/ScratchAddons.wiki
-          path: tutorials  
       - name: Build
         uses: andstor/jsdoc-action@v1
         with:
