@@ -9,7 +9,7 @@
         "name": "Scratch Addons API Docs",
         "logo": "",
         "title": "Scratch Addons API Docs", 
-        "css": "styles/override.css",
+        "css": "styles/overrides.css",
     "hideGenerator": false,
         "navLinks": [
             {
