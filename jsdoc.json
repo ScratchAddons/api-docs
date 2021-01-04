@@ -30,7 +30,8 @@
                 "id":"github_link"
             }
         }
-    }
+   },
+
   "templates": {
     "search": true,
     "better-docs": {
